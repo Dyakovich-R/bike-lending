@@ -4,7 +4,7 @@
   }
 }
 @mixin onTables {
-  @media (min-width: 768px) {
+  @media (min-width: 767.9px) {
     @content;
   }
 }

@@ -5,6 +5,7 @@
   }
 
   @include onDesktop {
+    max-width: 1260px;
     padding: 0 124px 0 120px;
   }
 }
