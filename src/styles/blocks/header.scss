@@ -1,12 +1,12 @@
 
 .header {
-  background-image: url(../images/header.jpg);
+  background-image: url(../images/header2.jpg);
   background-size: cover;
   background-position: 85%;
 
   @include onTables {
     margin-bottom: 120px;
-    background-position: center;
+    background-position: 50%;
   }
 
   @include onDesktop {
@@ -46,8 +46,8 @@
     }
 
     @include onDesktop {
-      //font-size: 80px;
-      //line-height: 80px;
+      font-size: 80px;
+      line-height: 80px;
     }
   }
 

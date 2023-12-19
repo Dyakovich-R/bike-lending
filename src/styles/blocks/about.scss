@@ -9,10 +9,12 @@
     color: #fff;
 
     @include onTables {
+      padding-top: 0;
       margin-bottom: 0;
       font-size: 48px;
     }
     @include onDesktop {
+      padding-top: 0;
       margin-bottom: 0;
       font-size: 64px;
     }

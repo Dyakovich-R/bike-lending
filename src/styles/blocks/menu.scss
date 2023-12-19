@@ -5,6 +5,8 @@
     box-sizing: border-box;
     height: 100vh;
     padding: $headerTopPadding 0;
+     overflow-x: auto;
+     white-space: nowrap;
   }
 
   &__top {
